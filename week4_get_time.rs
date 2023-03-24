@@ -13,7 +13,7 @@ impl Time for TrafficLight {
         match *self {
             TrafficLight::Red => 60,
             TrafficLight::Yellow => 5,
-            TrafficLight::Green => 60,
+            TrafficLight::Green => 75,
         }
     }
 }
